@@ -1801,8 +1801,11 @@
     border-bottom-right-radius: 10px;
     background: #0bceaf;
     -webkit-transition: 3s all;
+    transition: 3s all;
     -webkit-animation-duration: 3s;
+    animation-duration: 3s;
     -webkit-animation-name: animationProgress;
+    animation-name: animationProgress;
   }
   
   .candidatos .parcial .partidas {
@@ -2514,12 +2517,12 @@
       Mobile Nav
   ==============
   */
-  .old {
+  /* .old { */
     /*==============
                   Overlay            
         ================== */
     /*  Navigation Menu */
-  }
+  /* } */
   
   .old .navbar-collapse {
     position: fixed;
